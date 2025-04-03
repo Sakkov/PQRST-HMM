@@ -1,0 +1,10 @@
+name: PQRST-HMM
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - pip:
+      - wfdb
+      - matplotlib
+      - hmmlearn
