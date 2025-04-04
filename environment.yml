@@ -2,8 +2,15 @@ name: PQRST-HMM
 channels:
   - conda-forge
 dependencies:
+  - python==3.12
   - numpy
   - pandas
+  - scipy
+  - scikit-learn
+  - seaborn
+  - jupyter
+  - pandas
+  - pip
   - pip:
       - wfdb
       - matplotlib
